@@ -13,7 +13,6 @@ const Navbar = () => {
       <ul className="nav-links">
         <li><Link to="/learn">เรียนรู้</Link></li>
         <li><Link to="/exercises">แบบฝึกหัด</Link></li>
-        <li><Link to="/profile">โปรไฟล์</Link></li>
       </ul>
     </nav>
   );
