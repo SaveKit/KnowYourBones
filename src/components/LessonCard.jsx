@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import PropTypes from 'prop-types';
-import "./LessonCard.css";
+import "../styles/LessonCard.css";
 
 const LessonCard = ({ title, image, link }) => {
   return (
