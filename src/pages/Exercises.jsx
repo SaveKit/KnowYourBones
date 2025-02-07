@@ -9,26 +9,26 @@ const lessons = [
   {
     title: "บทนำเกี่ยวกับโครงสร้างกระดูก",
     image: skeleton,
-    link: "/learn/introduction",
+    link: "/exercises/introduction",
   },
   {
     title: "โครงกระดูกแกนกลาง",
     image: axialSkeleton,
-    link: "/learn/axial-skeleton",
+    link: "/exercises/axial-skeleton",
   },
   {
     title: "โครงกระดูกแขนขา",
     image: appendicularSkeleton,
-    link: "/learn/appendicular-skeleton",
+    link: "/exercises/appendicular-skeleton",
   },
 ];
 
-const Learn = () => {
+const exercises = () => {
   return (
     <>
       <Navbar />
       <div className="container">
-        <h1>โหมดการเรียนรู้</h1>
+        <h1>โหมดแบบฝึกหัด</h1>
         <div className="lesson-list">
           {lessons.map((lesson, index) => (
             <LessonCard key={index} {...lesson} />
@@ -39,4 +39,4 @@ const Learn = () => {
   );
 };
 
-export default Learn;
+export default exercises;
