@@ -1,0 +1,37 @@
+.lesson-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, var(--primary-blue-color), var(--secondary-blue-color));
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    transition: transform 0.2s;
+  }
+  
+  .lesson-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .lesson-content h2 {
+    margin: 0;
+    color: #0c2d57;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .learn-more {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color: #0c2d57;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .lesson-image {
+    width: auto;
+    height: 150px;
+  }
+  
