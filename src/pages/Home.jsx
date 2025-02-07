@@ -8,7 +8,7 @@ const Home = () => {
       <Navbar />
       <div className="container">
         <div className="content-container">
-          <div>
+          <div className="content">
             <h1>ยินดีต้อนรับสู่</h1>
             <h1 style={{ fontFamily: 'Bebas Neue, san-serif'}}>KnowYourBones</h1>
             <p>
@@ -20,7 +20,7 @@ const Home = () => {
               โครงสร้างที่ซับซ้อน พร้อมด้วยแบบฝึกหัดให้ได้ทบทวนบทเรียน</p>
             <button className="cta-button" onClick={() => window.location.href='/learn'}>เริ่มเรียนรู้</button>
           </div>
-          <div>
+          <div className="image-container">
             <img src={skeletonImage} alt="skeleton" />
           </div>
         </div>
